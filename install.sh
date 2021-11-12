@@ -14,7 +14,7 @@ curl -o gotty https://raw.githubusercontent.com/afnan007a/Replit-Vm/main/gotty
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
 ./ngrok authtoken 1p4KIn23NvQKkeuk9Y0cj45hOUK_4BP4aSeVFdzqws3MsL9rZ
-nohup ./ngrok tcp 8080 --region=eu &
+nohup ./ngrok tcp 8080 --region=au &
 chmod +x ./gotty
 chmod 777 *
 echo chmod ayarlandı
