@@ -18,4 +18,4 @@ nohup ./ngrok tcp 8080 --region=au &
 chmod +x ./gotty
 chmod 777 *
 echo chmod ayarlandı
-./gotty bash
+./gotty -w bash
