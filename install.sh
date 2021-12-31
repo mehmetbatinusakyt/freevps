@@ -11,7 +11,7 @@ ${bold}${lightgreen}USAKHOST VPS
 ${bold}${lightgreen}========================================================================
  "
 curl -o gotty https://raw.githubusercontent.com/afnan007a/Replit-Vm/main/gotty
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+curl -o https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
 ./ngrok authtoken 1lvbMEFO6r2uj8JDRnIoXrAxA20_87gxFUcUqyg2pPNFQ4u9s
 nohup ./ngrok tcp 8080 --region=au &
