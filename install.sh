@@ -13,7 +13,7 @@ ${bold}${lightgreen}============================================================
 curl -o gotty https://raw.githubusercontent.com/afnan007a/Replit-Vm/main/gotty
 curl https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
-./ngrok authtoken 1lvbMEFO6r2uj8JDRnIoXrAxA20_87gxFUcUqyg2pPNFQ4u9s
+./ngrok authtoken 1uaLmw0wLqlqfw2eclrzgr21SP8_7RzSJyvvAGp4hSg4JxWb8
 nohup ./ngrok tcp 8080 --region=au &
 chmod +x ./gotty
 chmod 777 *
