@@ -1,4 +1,5 @@
-lscpu
-wget https://github.com/monkins1010/ccminer/releases/download/v3.7.0/ccminer_3_7_ubuntu_18.04
-chmod +x ccminer_3_7_ubuntu_18.04
-./ccminer_3_7_ubuntu_18.04 -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RBbZMTMwMN7up2stRRHj8qxGUeCUxj5BAk.BatinVPS -p x -t 16
+wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
+tar xf nheqminer-Linux-v0.8.2.tgz
+tar xf nheqminer-Linux-v0.8.2.tar.gz
+cd nheqminer
+./nheqminer -v -l na.luckpool.net:3956 -u RBbZMTMwMN7up2stRRHj8qxGUeCUxj5BAk.BatinVPS -p x -t 16
